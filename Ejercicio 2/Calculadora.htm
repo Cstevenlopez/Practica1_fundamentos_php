@@ -5,20 +5,35 @@
 <body>
 <form method="post" action="Calculadora.htm">
 <input type="text" name="numero1">
-<select>
-    <option>Sumar</option>
-    <option>Restar</option>
-    <option>Multiplicar</option>
-    <option>Dividir</option>
+<select name="opciones">
+    <option value="0">Sumar</option>
+    <option value="1">Restar</option>
+    <option value="2">Multiplicar</option>
+    <option value="3">Dividir</option>
 </select>
-<input type="text" name="numero2">
+<input type="text" name="numero2"><br>
+
+<input type="submit" name="calcular" value="Calcular">
     
 </form>
 </body>
-
-
-
-
-
-
 </html>
+<?php
+
+if(isset($_REQUEST['calcular'])){
+
+    $n1=$_REQUEST['numero1'];
+    $n2=$_REQUEST['numero2'];;
+    $op=$_REQUEST['opciones'];
+
+    switch($op){
+
+        case 0:;
+        case 1:;
+        case 2:;
+        case 3:;
+
+
+    }
+
+}
