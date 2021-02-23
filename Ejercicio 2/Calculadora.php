@@ -4,5 +4,11 @@ class matematica {
     $suma=$num1+$num2;
     return $suma;
     }
+    public static function restar($num1,$num2){
+        $resta=$num1+$num2;
+        return $resta;
+        }
+        
+
     
 }
