@@ -3,7 +3,7 @@
     <title>Calculadora</title>
 </head>
 <body>
-<form method="post" action="Calculadora.htm">
+<form method="post" action="Calculadora.html">
 <input type="text" name="numero1">
 <select name="opciones">
     <option value="0">Sumar</option>
@@ -19,21 +19,22 @@
 </body>
 </html>
 <?php
-
+require_once "Calculadora.php";
 if(isset($_REQUEST['calcular'])){
 
     $n1=$_REQUEST['numero1'];
-    $n2=$_REQUEST['numero2'];;
+    $n2=$_REQUEST['numero2'];
     $op=$_REQUEST['opciones'];
 
     switch($op){
 
-        case 0:;
-        case 1:;
-        case 2:;
-        case 3:;
+        case 0:echo "$n1 + $n2 = ".matematica::sumar($n1,$n2);break;
+        case 1:echo "$n1 - $n2 = ".matematica::restar($n1,$n2);break;
+        case 2:echo "$n1 * $n2 = ".matematica::multiplicar($n1,$n2);break;
+        case 3:echo "$n1 / $n2 = ".matematica::dividir($n1,$n2);break;
 
 
     }
 
 }
+?>
