@@ -1,20 +1,28 @@
 <?php
-class matematica {
-    public static function sumar($num1,$num2){
-    $suma=$num1+$num2;
-    return $suma;
-    }
-    public static function restar($num1,$num2){
-    $resta=$num1-$num2;
-        return $resta;
-    }
-    public static function multiplicar($num1,$num2){
-    $multi=$num1*$num2;
-    return $multi;
-    }
-    public static function dividir($num1,$num2){
-    $divi=$num1/$num2;
-    return $divi;
-    }    
+
+if(isset($_POST['numero1']) && isset($_POST['numero2']))
+{
+    $numero1 = $_POST['numero1'];
+    $numero2 = $_POST['numero2'];
+    $total = $numero1 + $numero2;
+    echo "La suma es " . $total;
 }
+// class matematica {
+//     public static function sumar($num1,$num2){
+//     $suma=$num1+$num2;
+//     return $suma;
+//     }
+//     public static function restar($num1,$num2){
+//     $resta=$num1-$num2;
+//         return $resta;
+//     }
+//     public static function multiplicar($num1,$num2){
+//     $multi=$num1*$num2;
+//     return $multi;
+//     }
+//     public static function dividir($num1,$num2){
+//     $divi=$num1/$num2;
+//     return $divi;
+//     }    
+// }
 ?>
