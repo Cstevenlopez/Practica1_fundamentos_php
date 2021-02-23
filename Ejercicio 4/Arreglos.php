@@ -12,10 +12,7 @@
 </body>
 </html>
 <?php
-$rand = range(1,50);
-?>
-<?php
-$rand = range(1,50);
+$rand = range(1,20);
 shuffle($rand);
 foreach ($rand as $val) {
 echo "$val ";
