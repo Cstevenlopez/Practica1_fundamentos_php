@@ -22,7 +22,7 @@ while ($cantidad<=$n -1){
 }
 echo "La suma de los n&uacute;meros generados es $total <br />";
 echo "El promedio es ".($total/$n)."<br />";
-/*echo "El menor es $min <br />";
-echo "El mayor es $max <br />";*/
+echo "El menor es $min <br />";
+echo "El mayor es $max <br />";
 echo "Valor que mas se repite : ".$mr[0]; 
 ?>
