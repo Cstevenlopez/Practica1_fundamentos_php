@@ -19,7 +19,7 @@ $columnas = recoge("columnas");
 $columnasOk = false;
 
 $columnasMinimo = 1;
-$columnasMaximo = 200;
+$columnasMaximo = 1000;
 
 if ($columnas == "") {
     print "  <p class=\"aviso\">No ha escrito el número de columnas.</p>\n";
@@ -51,5 +51,4 @@ if ($columnasOk) {
     print "  </table>\n";
     print "\n";
 }
-
 ?>
