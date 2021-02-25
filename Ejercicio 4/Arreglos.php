@@ -6,7 +6,7 @@ $min=null;
 $max=null;
 $mr[] = array();
 while ($cantidad<=$n -1){
-    $rand=rand(1,100);
+    $rand=rand(1,20);
 
     $mr = array($rand);
     
