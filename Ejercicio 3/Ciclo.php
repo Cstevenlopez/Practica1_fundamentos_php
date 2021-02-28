@@ -1,10 +1,10 @@
 <?php
 if(!$_POST) {
-    header('Location:DosParametros.html');
+    header('Location:index.hmtl');
 
 }
 $nombre = $_POST['nombre'];
-$número = $_POST['número'];
+$número = $_POST['numero'];
 $ciclo = 1;
 
 ?>
@@ -14,15 +14,15 @@ $ciclo = 1;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla de registro</title>
+    <title>Registro del ciclo</title>
 </head>
 <body>
-<h1>Nombre de la persona registrada: <?php echo $nombre ?></h1>
+<h1>Nombre: <?php echo $nombre ?></h1>
     
     <body>
         <table border="1";
             <thead>
-            <tr><th> Cantidad de Registro: <td> <?php echo $número ?></td></th>                                      
+            <tr><th>Numero de repeticiones: <td> <?php echo $número ?></td></th>                                      
             </tr>
             
         </thead>
@@ -31,7 +31,7 @@ $ciclo = 1;
     <?php       
    
 if($número > 10000){
-    echo "<p>{$ciclo} {$nombre} " . "</p>";
+    echo "<p>El limite maximo de repeticiones es de 10000" . "</p>";
 }
 
 else{
@@ -43,8 +43,5 @@ else{
 
 }
     ?>
-    
-   
-  
 </body>
 </html>
