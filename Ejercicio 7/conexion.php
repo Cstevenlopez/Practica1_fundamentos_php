@@ -11,6 +11,7 @@ echo"no se pudo conectar con el servidor";
         echo"No se encontro la base de datos";
     }
 }
+
 //recuperar las variables
 $nombre=$_POST['nombre'];
 $apellido=$_POST['apellido'];
