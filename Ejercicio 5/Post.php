@@ -15,7 +15,6 @@ if(isset($_POST['nombre']))
          var_dump( $_SESSION['nombres']);
      }
 }
-
 $valores = $_SESSION["nombres"];
 foreach($valores as $val)
 {
