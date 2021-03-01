@@ -1,6 +1,6 @@
 <?php
 if(!$_POST) {
-    header('Location:index.hmtl');
+    header('Location:index.html');
 
 }
 $nombre = $_POST['nombre'];
