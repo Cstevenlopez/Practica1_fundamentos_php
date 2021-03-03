@@ -14,6 +14,6 @@ lo cual podremonos descargar al visitar al sitio wed
 ~~~
 <div>
 <p style = 'text-align:center;'>
-<img src="img/cap1.PNG" alt="JuveYell" width="600px">
+<img src="img/cap1.PNG" alt="JuveYell" width="100%">
 </p>
 </div>
