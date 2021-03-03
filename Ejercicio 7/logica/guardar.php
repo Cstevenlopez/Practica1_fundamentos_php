@@ -25,7 +25,6 @@ $params = [
     'sexo' => $sexo,
     'direccion' => $direccion,
 ];
-
 $statement->execute($params);
 
 if($statement){
