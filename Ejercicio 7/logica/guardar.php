@@ -38,7 +38,4 @@ if($statement){
     location.href = '../index.html';
     </script>";
 }
-
-
-
 ?>
