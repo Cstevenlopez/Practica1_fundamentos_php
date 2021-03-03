@@ -120,7 +120,7 @@ nos ira mostrando toda la informacion al respecto
 </p>
 </div>
 
-6.  Para acceder a la nueva máquina virtual, ejecute el siguiente comando en el mismo directorio que su Vagrantfile
+6. Para acceder a la nueva máquina virtual, ejecute el siguiente comando en el mismo directorio que su Vagrantfile
 
 ~~~
 luego ejecutamos el comando :
