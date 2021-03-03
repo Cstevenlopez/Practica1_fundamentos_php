@@ -157,7 +157,7 @@ Tambien crear un array que nos permita alamcenar los nombres agregados
 $nombres = array();
 
 Luego de eso realizaremos validaciones para que cuando se ingrese un primer nombre nos permita almacenar mas 
-nombres ingresados y no perder los anteriores
+nombres  y no perder los anterior mente guardados en array con la variable $_SESSION
 
 if(isset($_POST['nombre']))
 {
@@ -175,5 +175,10 @@ if(isset($_POST['nombre']))
 
 Y luego imprimimos el resultado
 
+$valores = $_SESSION["nombres"];
+foreach($valores as $val)
+{
+    echo $val."<br>" ;
+} 
 
 ~~~
