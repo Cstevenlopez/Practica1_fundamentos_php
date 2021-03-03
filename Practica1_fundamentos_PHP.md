@@ -9,7 +9,8 @@ configuración adicional.
 donde indica la configuración adecuada según su necesidad
 
 ~~~
-Para poder crear un entorno de php en vagrant primero es necesario descargar el programa lo cual podremonos descargar al visitar al sitio wed
+Para poder crear un entorno de php en vagrant primero es necesario descargar el programa 
+lo cual podremonos descargar al visitar al sitio wed
 ~~~
 <div>
 <p style = 'text-align:center;'>
