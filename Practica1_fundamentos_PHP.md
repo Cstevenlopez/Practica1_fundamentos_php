@@ -80,7 +80,26 @@ Tengo un fichero .sh pero lo nombre otra manera en mi caso es bootstrap.sh donde
 
 <div>
 <p style = 'text-align:center;'>
-<img src="img/cap6.PNG" alt="JuveYell" width="90%">
+<img src="img/cap6.PNG" alt="JuveYell" width="100%">
 </p>
 </div>
 
+4. El fichero anterior se ve un poco extenso, es su tarea analizar que realiza este fichero, recuerde que debe crearlo al lado del fichero Vagrantfile
+
+~~~
+El fichero .sh  contiene algunos comandos para instalar un servidor apache el cliente my sql, librerias de php para nuestro entorno
+~~~
+
+5. Inicie la máquina virtual, ejecutando el siguiente comando en el mismo directorio que tiene su Vagrantfile
+
+~~~
+Para empezar primero es inicializar nuestro vagrant con algun fichero por ejemplo el siguiente  para eso es necesario el comando:
+
+vagrant init
+~~~
+
+<div>
+<p style = 'text-align:center;'>
+<img src="img/cap7.PNG" alt="JuveYell" width="100%">
+</p>
+</div>
