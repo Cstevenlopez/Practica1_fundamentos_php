@@ -135,3 +135,45 @@ se nos abrira una terminal dentro de la maquina virtual creada
 <img src="img/cap9.PNG" alt="JuveYell" width="100%">
 </p>
 </div>
+
+# **III. Contestasto algunas interroganges de los ejercicios**
+
+b. Suponga el siguiente caso: Dispongo de un formulario HTML con un elemento
+de entrada para nombres y un elemento de entrada de submit, que envía estos
+datos a un fichero PHP usando el método POST. Ahora, sabemos que esto
+funcionaría solo para manipular un nombre a la vez, pero nosotros necesitamos
+que la información este ahí luego de regresar y enviar otro nombre. Analice este
+caso y brinde una solución usando PHP.
+
+~~~
+Segun mi analisis necesitaremos utilizar una variable de secion en este caso  $_SESSION que nos ayudara a
+contener la informacion,Esta es una 'superglobal' o una variable automatic global. Significa simplemente 
+que es una variable que está disponible en cualquier parte del script.
+
+session_start(); lo utilizamos para inicar la secion 
+
+Tambien crear un array que nos permita alamcenar los nombres agregados
+
+$nombres = array();
+
+Luego de eso realizaremos validaciones para que cuando se ingrese un primer nombre nos permita almacenar mas 
+nombres ingresados y no perder los anteriores
+
+if(isset($_POST['nombre']))
+{
+    if(isset($_SESSION['nombres'])){
+         $nombres = $_SESSION['nombres'];
+         $nombres[] = $_POST['nombre'];
+         $_SESSION['nombres'] = $nombres;
+     } else {
+        /* array_push($_SESSION['nombres'], $_POST['nombre']);*/
+        $nombres[] = $_POST['nombre'];
+        $_SESSION['nombres'] = $nombres;
+         var_dump( $_SESSION['nombres']);
+     }
+}
+
+Y luego imprimimos el resultado
+
+
+~~~
