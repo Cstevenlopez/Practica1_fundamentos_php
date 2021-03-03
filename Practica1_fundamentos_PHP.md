@@ -20,7 +20,7 @@ lo cual podremonos descargar al visitar al sitio wed
 </div>
 
 ~~~
-Seleccionamos la opcion para Windows y damos cic en descragar
+Seleccionamos la opcion para Windows y damos cic en descargar
 ~~~
 
 <div>
@@ -35,7 +35,7 @@ Una vez ya descargado el archivo simplemente lo instalamos
 
 <div>
 <p style = 'text-align:center;'>
-<img src="img/cap3.PNG" alt="JuveYell" width="100%">
+<img src="img/cap3.PNG" alt="JuveYell" width="70%">
 </p>
 </div>
 
@@ -55,6 +55,6 @@ Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
 
 <div>
 <p style = 'text-align:center;'>
-<img src="img/cap4.PNG" alt="JuveYell" width="100%">
+<img src="img/cap4.PNG" alt="JuveYell" width="70%">
 </p>
 </div>
