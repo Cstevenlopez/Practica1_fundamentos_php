@@ -103,3 +103,19 @@ vagrant init
 <img src="img/cap7.PNG" alt="JuveYell" width="100%">
 </p>
 </div>
+
+
+~~~
+luego de eso crearemos nuestra maquina con el comando :
+
+vagrant up
+
+realizara todo el aprovicionamiento ejecutando todos los comandos que le indique en el archivo bootstrap.sh al ejeutar el comando nos ira mostrando toda
+la informacion al respecto
+~~~
+
+<div>
+<p style = 'text-align:center;'>
+<img src="img/cap8.PNG" alt="JuveYell" width="100%">
+</p>
+</div>
