@@ -119,3 +119,19 @@ nos ira mostrando toda la informacion al respecto
 <img src="img/cap8.PNG" alt="JuveYell" width="100%">
 </p>
 </div>
+
+6.  Para acceder a la nueva máquina virtual, ejecute el siguiente comando en el mismo directorio que su Vagrantfile
+
+~~~
+luego ejecutamos el comando :
+
+vagrant ssh
+
+se nos abrira una terminal dentro de la maquina virtual creada
+~~~
+
+<div>
+<p style = 'text-align:center;'>
+<img src="img/cap9.PNG" alt="JuveYell" width="100%">
+</p>
+</div>
