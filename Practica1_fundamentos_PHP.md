@@ -49,12 +49,25 @@ configuración que queremos aplicar
 
 ~~~
 Para poder deshabilitar Hyper-v de windows existen dos procedimientos uno es con el siguiente codigo 
-Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
-
+Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All y tambien podemos ir a las
+caracteristicas de windows y desmarcar la carpeta Hyper-V
 ~~~
 
 <div>
 <p style = 'text-align:center;'>
 <img src="img/cap4.PNG" alt="JuveYell" width="70%">
+</p>
+</div>
+
+
+2. El siguiente ejemplo es la configuración necesaria para obtener una máquina 
+
+~~~
+En mi caso esto es lo que contiene mi fichero Vagrantfile
+~~~
+
+<div>
+<p style = 'text-align:center;'>
+<img src="img/cap5.PNG" alt="JuveYell" width="70%">
 </p>
 </div>
