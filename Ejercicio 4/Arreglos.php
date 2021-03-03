@@ -1,28 +1,38 @@
 <?php
-$n=$_GET["valorn"];
-echo "Estos son $n numeros aleatorios entre 1 y 100 <br />";
-$total=0;
-$min=null;
-$max=null;
-$mr[] = array();
-while ($cantidad<=$n -1){
-    $rand=rand(1,20);
+$rango = $_POST["numero"];
+$datos;
 
-    $mr = array($rand);
-    
-    echo "Numero aleatorio $rand <br />";
-    $total+=$rand;
-    if (is_null($min) || $rand<$min) {
-        $min = $rand; // guardo el menor
-    }
-    if (!is_null($max) || $rand>$max) {
-        $max = $rand; // guardo el mayor
-    }
- $cantidad ++;
+for($i=0; $i<1000000; $i++){
+$num = rand(1,100000);
+if($num <= $rango){
+$datos[$num]++;
 }
-echo "La suma de los n&uacute;meros generados es $total <br />";
-echo "El promedio es ".($total/$n)."<br />";
-echo "El menor es $min <br />";
-echo "El mayor es $max <br />";
-echo "Valor que mas se repite : ".$mr[0]; 
+}
+
+echo ("<h3>Listado de numeros  </h3>");
+for($a=0; $a<=$rango; $a++){
+echo ("<h4> $datos[$a] </h4>");	
+}
+
+$datos = array_count_values($datos);
+asort($datos);
+
+foreach ($datos as $c => $v) {
+    //echo "Numero = "." $c Cantidad se repite = $v <br />";
+    $suma += $c;	
+}
+
+
+if($v == 1)
+{
+echo ("<h3>No hay ningun numero que se repita más</h3>");
+}
+else
+{
+echo ("<h3>El numero que mas se repite es : $c  y se repite :   $v   veces</h3>");
+}
+//
+$resta= $c * $v;
+$total = ($suma - $resta);
+echo "La suma de los números sin incluir el que más se repite es : ".$total;
 ?>
