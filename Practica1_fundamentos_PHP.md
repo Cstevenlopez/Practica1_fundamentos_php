@@ -71,3 +71,16 @@ En mi caso esto es lo que contiene mi fichero Vagrantfile
 <img src="img/cap5.PNG" alt="JuveYell" width="70%">
 </p>
 </div>
+
+3. Creamos el fichero provisioner.sh con el siguiente contenido, que hará que se instalen todos esos servicios
+
+~~~
+Tengo un fichero .sh pero lo nombre otra manera en mi caso es bootstrap.sh donde contiene todos los servicios que utilizare
+~~~
+
+<div>
+<p style = 'text-align:center;'>
+<img src="img/cap6.PNG" alt="JuveYell" width="70%">
+</p>
+</div>
+
