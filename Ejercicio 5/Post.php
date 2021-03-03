@@ -18,6 +18,6 @@ if(isset($_POST['nombre']))
 $valores = $_SESSION["nombres"];
 foreach($valores as $val)
 {
-    echo $val."<br>" ;
+    echo $val."<br>";
 } 
 ?>
