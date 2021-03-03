@@ -80,7 +80,7 @@ Tengo un fichero .sh pero lo nombre otra manera en mi caso es bootstrap.sh donde
 
 <div>
 <p style = 'text-align:center;'>
-<img src="img/cap6.PNG" alt="JuveYell" width="70%">
+<img src="img/cap6.PNG" alt="JuveYell" width="90%">
 </p>
 </div>
 
